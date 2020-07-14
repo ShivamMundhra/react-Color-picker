@@ -1,0 +1,51 @@
+.ColorBox {
+  width: 20%;
+  height: 25%;
+  cursor: pointer;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+}
+
+.copyBtn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  height: 25%;
+  text-align: center;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: white;
+  opacity: 0;
+  border-color: transparent;
+}
+
+.ColorBox:hover .copyBtn {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+.name {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 3%;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.more {
+  background-color: rgba(255, 255, 255, 0.3);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 3%;
+}
