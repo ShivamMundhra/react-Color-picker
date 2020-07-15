@@ -22,6 +22,7 @@
   color: white;
   opacity: 0;
   border-color: transparent;
+  cursor: pointer;
 }
 
 .ColorBox:hover .copyBtn {
@@ -100,4 +101,5 @@
 .copyMsgColor {
   color: #fff;
   font: 2rem;
+  text-transform: uppercase;
 }
