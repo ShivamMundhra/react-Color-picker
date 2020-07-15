@@ -2,9 +2,11 @@
   height: 100vh;
   width: 100vw;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 .PaletteBoxes {
-  height: 90%;
+  height: 88%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -13,4 +15,21 @@
   width: 340px;
   margin: 0 10px;
   display: inline-block;
+}
+
+.footer {
+  background-color: white;
+  height: 6%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.paletteName {
+  color: black;
+  display: inline-block;
+}
+.emoji {
+  margin: 0 1rem;
+  font-size: 1rem;
 }

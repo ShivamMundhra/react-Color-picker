@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import styles from "./Navbar.module.css";
+import { Link } from "react-router-dom";
+
 import Slider from "rc-slider";
 import "rc-slider/assets/index.css";
 import "./slider.css";
@@ -23,7 +25,7 @@ const Navbar = (props) => {
   return (
     <nav className={styles.nav}>
       <div className={styles.logo}>
-        <a href="#">Picky</a>
+        <Link to="/">Picky</Link>
       </div>
       <div className={styles.sliderBox}>
         <span>Level:{props.level}</span>
